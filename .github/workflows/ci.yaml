@@ -36,7 +36,7 @@ jobs:
           ipywidgets
 
       - run: >
-          sudo apt update
+          sudo apt update &&
           sudo apt install -y
           libcairo2-dev
           libfreetype6-dev
