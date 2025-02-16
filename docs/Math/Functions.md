@@ -45,3 +45,13 @@ $$
 
 Here, $Set(A)$ and $Set(B)$ are also known as  $Domain$  and  $Co-domain$  respectively.
 
+![[Pasted image 20250216200946.png]]
+
+
+
+
+
+
+
+
+
