@@ -52,6 +52,8 @@ plugins:
   - social # Social cards for embedded images when line is shared
 
 markdown_extensions:
+  - toc:
+    permalink: 
   - admonition  # Obsidian callouts
   - pymdownx.details  # Makes the callouts open and close-able
   - pymdownx.blocks.caption # Captions for images
