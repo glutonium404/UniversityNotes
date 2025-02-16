@@ -1,0 +1,56 @@
+name: ci
+on:
+  push:
+    branches:
+      - master
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - name: Install Pip
+        run: python -m pip install --upgrade pip
+
+      - name: Install Dependencies
+        run: >
+          pip install
+          mkdocs
+          mkdocs-material
+          numpy
+          mkdocs-obsidian-interactive-graph-plugin
+          mkdocs-callouts
+          mkdocs-obsidian-support-plugin
+          mkdocs-obsidian-bridge
+          mkdocs-glightbox
+          mkdocs-exclude
+          pillow
+          cairosvg
+          plotly
+          ipywidgets
+
+      - run: >
+          sudo apt update
+          sudo apt install -y
+          libcairo2-dev
+          libfreetype6-dev
+          libffi-dev
+          libjpeg-dev
+          libpng-dev
+          zlib1g-dev
+          pngquant
+
+      - uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+      - run: pip install mkdocs-roamlinks-plugin
+      - run: pip install mkdocs-rss-plugin
+      - run: pip install mkdocs-mermaid2-plugin
+      - run: mkdocs gh-deploy --force
