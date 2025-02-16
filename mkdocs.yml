@@ -1,8 +1,114 @@
-site_name: MkLorum
+site_name: University Notes
+docs_dir: docs
+
+site_description: A website to containing university notes
+site_author: glutonium404
+repo_url: https://github.com/glutonium404/UniversityNotes/
+repo_name: glutonium404/UniversityNotes/
+
+site_url: https://glutonium404.github.io/UniversityNotes/
 
 theme:
-  name: mkdocs
-  color_mode: dark
-  user_color_mode_toggle: true
+  name: "material"
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: indigo
+
+  previous: fontawesome/solid/angle-left
+  next: fontawesome/solid/angle-right
+
   features:
-    - content.code.copy
+    - content.code.select # Selecting code lines, not working
+    - content.code.annotate  # Showing annotation within code blocks
+    - content.code.copy  # Button for copying code block
+    - content.footnote.tooltips # ToolTip for footnotes
+    - navigation.tracking # updates URL bar according to heading
+    - navigation.path # Doc Path in the top of nav
+    - navigation.prune # reducing build time, good for large scale
+    - navigation.indexes # index pages are attached to the section itself
+    - toc.follow # automatically scroll tables of content according to content
+    - navigation.top # back to top
+    - navigation.footer # footer
+
+  custom_dir: overrides
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  logo: assets/icons/nerd.png
+
+  favicon: assets/icons/nerd.png
+
+plugins:
+  - search # search bar
+  - callouts # Obsidian callouts, e.g. [!note]-
+  # - obsidian-interactive-graph # Obsidian like graph, a bit hard to read
+  - obsidian-support # Obsidian Tags, causing problems to cpp code snippets within obsidian callouts
+  - obsidian-bridge # Obsidian like file links
+  - glightbox # Image zooming
+  - social # Social cards for embedded images when line is shared
+
+markdown_extensions:
+  - admonition  # Obsidian callouts
+  - pymdownx.details  # Makes the callouts open and close-able
+  - pymdownx.blocks.caption # Captions for images
+  - def_list # MarkDown Definition lists
+  - attr_list  # Adds attributes and classes to markdown elements, necessary for buttons, grids, tooltips
+  - abbr # Abbreviations, necesary for tooltips
+  - md_in_html  # Writing MarkDown inside HTML, necessary for grids
+  - pymdownx.snippets # Adding content from other files, necessary for tooltips
+  - tables # MarkDown tables
+  - footnotes # MarkDown footnotes
+  - pymdownx.critic # Git like add, deletion, comment, highlight etc
+  - pymdownx.caret # Text marking like striking, underline and highlighting
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys # Keyboard key symbols for ctrl, alt and delete etc
+  - pymdownx.inlinehilite # inline code block syntax highlighting
+  - pymdownx.arithmatex: # Inline latex code
+      generic: true
+  - pymdownx.superfences:  # Arbitrary number of nesting of blocks, necessary for tabbed content blocks
+      custom_fences:
+        - name: mermaid  # For diagrams like pie, sequence, flow chart, class
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight: # Syntax highlighting
+      use_pygments: true # Use pygments for syntax highlighting
+      pygments_style: "monokai" # The pygment theme, I will override with my own
+  - pymdownx.tabbed: # Tabbed content blocks
+      alternate_style: true
+  - pymdownx.tasklist: # Mkdocs style checklist
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons/
+
+extra_css:
+  - assets/stylesheets/pygments.css
+  - assets/stylesheets/custom.css
+  - assets/stylesheets/variables.css
+  - assets/stylesheets/obsidian_tags.css # For obsidian tags
+  - assets/stylesheets/interactive_graph.css # For Notes Graph
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.plot.ly/plotly-latest.min.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+  # For obsidian tags
+  - assets/javascripts/obsidian_tags.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/glutonium404/
+      name: Github Profile
+
+    - icon: fontawesome/brands/discord
+      link: https://discordapp.com/users/845398823571947580
+      name: Discord Profile
