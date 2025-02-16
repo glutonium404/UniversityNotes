@@ -32,16 +32,18 @@ An important thing to know about functions is, for the same input a function wil
 
 # Visualizing via Sets
 
-We can express functions through Sets by constructing one Set consisting a number inputs (Set A) and another consisting the following corresponding outputs for those inputs (Set B). For the following example function,
+We can express functions through Sets by constructing one Set consisting a number of inputs (Set A) and another consisting the corresponding outputs for those inputs (Set B). For the following example function,
 
 $$
 f(x) = x + 1
 $$
 
 such two set can be as follows:
+
 $$
 Set A = \{{1, 2, 3, 4, 5, 6\}}
 $$
+
 $$
 Set B = \{{2, 3, 4, 5, 6, 7\}}
 $$
@@ -79,9 +81,11 @@ Suppose, $f: A \rightarrow B$ is a function from A to B. This function is called
 A function $f(x)$ is called even if $f(-x) = f(x)$ and it will be called odd if $f(-x)=-f(x)$.
 
 For example:
+
 $$
 \text{Even: } f(x) = x^2
 $$
+
 $$
 \text{Odd: } f(x) = 2x 
 $$
@@ -116,6 +120,7 @@ There are 4 rules when it comes to shifting (cause for both horizontal and verti
 ## Domain and Range
 
 **Domain:** All possible $x$ values of a particular function.
+
 **Range:** All possible $y$ values of a particular function.
 
 For example, let's look at the following function
@@ -151,7 +156,7 @@ $$
 
 ### Alternative way of figuring out Domain and Range
 
-Another way to figure out the domain and range from a given graph is to cast a shadow of the graph of the graph on the $x$ axis (let's call it "shadow-x") as well as cast a show of the graph on the $y$ axis (let's call it "shadow-y").
+Another way to figure out the domain and range from a given graph is to cast a shadow of the graph of the graph on the $x$ axis (let's call it "shadow-x") as well as cast a shadow of the graph on the $y$ axis (let's call it "shadow-y").
 
 The area covered by "shadow-x" is the domain and the area covered by "shadow-y" is the range
 
@@ -179,11 +184,11 @@ y = x^2 + 10x + 30
 $$
 
 $$
-=> x^2 + 2 \times x \times 5 + 5^2 + 5
+\Rightarrow x^2 + 2 \times x \times 5 + 5^2 + 5
 $$
 
 $$
-=> (x + 5)^2 + 5 \text{ }\text{ ----- (i)}
+\Rightarrow (x + 5)^2 + 5 \quad \text{----- (i)}
 $$
 
 $\text{Suppose}, f(x) = x^2$
@@ -204,4 +209,5 @@ $\text{Shifted graph:}$
 ![[Pasted image 20250216224450.png]]
 
 $\text{Domain: } Df = \mathbb{R}$
+
 $\text{Range: } Rf = [5, +\infty)$
