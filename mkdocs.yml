@@ -38,9 +38,9 @@ theme:
     text: Roboto
     code: Roboto Mono
 
-  logo: assets/icons/nerd.png
+  # logo: assets/icons/nerd.png
 
-  favicon: assets/icons/nerd.png
+  # favicon: assets/icons/nerd.png
 
 plugins:
   - search # search bar
