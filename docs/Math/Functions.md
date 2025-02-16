@@ -19,6 +19,7 @@ This function $f(x)$ takes an input x then adds 1 to $x$ and returns/outputs wha
 - output : result of x + 1
 
 For example if we pass in 4 as input we get 5 as output.
+
 $$
 f(4) = 4 + 1 = 5
 $$
