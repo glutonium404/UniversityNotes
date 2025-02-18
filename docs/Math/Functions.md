@@ -43,7 +43,6 @@ such two set can be as follows:
 $$
 Set A = \{{1, 2, 3, 4, 5, 6\}}
 $$
-
 $$
 Set B = \{{2, 3, 4, 5, 6, 7\}}
 $$
@@ -90,6 +89,23 @@ $$
 \text{Odd: } f(x) = 2x 
 $$
 
+
+## Continuous & Discontinuous function
+
+Apart from the types of functions mentioned above , we can also generalize functions into 2 parts.
+Continuous and Discontinuous function.
+
+**Continuous function:** For a given function $y = f(x)$ the function can be called a continuous function if for every value of $x$ there exists a value for $y$. In other words, whatever input you may provide to that function, it will always provide you with a definite output. Such a function is shown below,
+$$
+y = f(x) = Sin(x)
+$$
+
+**Discontinuous function:** For a given function $y = f(x)$ the function can be called a discontinuous function if for one of more values of $x$ there exists no value for $y$. In other words, no all values for $x$ will output an existing definite value for $y$. Such a function is shown below,
+$$
+y = f(x) = \dfrac{Sin(x)}{x}
+$$
+
+In the above function, if $x = 0$ then $y = \infty$ which is not a definite value for $y$. So for that function.
 
 # Graph shifting and Domain Range
 
