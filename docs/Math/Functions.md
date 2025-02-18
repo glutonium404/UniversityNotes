@@ -43,6 +43,7 @@ such two set can be as follows:
 $$
 Set A = \{{1, 2, 3, 4, 5, 6\}}
 $$
+
 $$
 Set B = \{{2, 3, 4, 5, 6, 7\}}
 $$
