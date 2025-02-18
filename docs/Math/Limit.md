@@ -1,6 +1,6 @@
 # Limit
 
-**Limit** is the process of **approximating** or **finding** the value, a functions output approaches for a given set of inputs. For a given function $y = f(x)$ , if $x$ approaches a certain value $a$ , then limit is the process through which we attempt to find the value which $y$ approaches.
+Finding a **Limit** is the process of **approximating** or **finding** the value, a functions output approaches for a given set of inputs. For a given function $y = f(x)$ , if $x$ approaches a certain value $a$ , then limit is the process through which we attempt to find the value which $y$ approaches.
 
 ![[Pasted image 20250218165430.png]]
 
@@ -11,7 +11,6 @@ $$
 \begin{array}{l}\lim\limits_{x \to 2} f(x) = 4\end{array}
 $$
 
-So essentially limit is just another way of finding the output of a function. But where it really stands apart from just normally figuring out the output (like, $f(2)$ directly which also gives you the value of y) is limit also operates on **discontinuous** functions. Read about [[Functions#Types of functions#Continuous & Discontinuous function]]
 
 ## Understanding Intuitively
 
@@ -20,7 +19,7 @@ $$
 y = f(x) = \dfrac{sin(x)}{x}
 $$
 
-Looking at it, you can realize that $f(x)$ is a discontinuous function cause when $x = 0$ , $y = \infty$. So the function breaks when $x$ becomes 0 and we are unable to find a definite value of $y$ here. But let's just look at the graph of the function for a moment,
+Looking at it, you can realize that $f(x)$ is a discontinuous function cause when $x = 0$ , $y = undefined$. So the function breaks when $x$ becomes 0 and we are unable to find a definite value of $y$ here. But let's just look at the graph of the function for a moment,
 
 ![[Pasted image 20250218174604.png]]
 
@@ -80,3 +79,4 @@ $$
 \begin{array}{l}\lim\limits_{x \to \frac{\pi}{2}} g(x) = l\_lim = r\_lim\end{array}
 $$
 
+But in this case if we do try to calculate the $l\_lim$  and $r\_lim$  for $g(x)$ we would see that both are different and so that means $g(x) = tan(x)$ doesn't have a limit.

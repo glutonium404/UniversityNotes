@@ -98,12 +98,12 @@ Continuous and Discontinuous function.
 
 **Continuous function:** For a given function $y = f(x)$ the function can be called a continuous function if for every value of $x$ there exists a value for $y$. In other words, whatever input you may provide to that function, it will always provide you with a definite output. Such a function is shown below,
 $$
-y = f(x) = Sin(x)
+y = f(x) = sin(x)
 $$
 
 **Discontinuous function:** For a given function $y = f(x)$ the function can be called a discontinuous function if for one of more values of $x$ there exists no value for $y$. In other words, no all values for $x$ will output an existing definite value for $y$. Such a function is shown below,
 $$
-y = f(x) = \dfrac{Sin(x)}{x}
+y = f(x) = \dfrac{sin(x)}{x}
 $$
 
 In the above function, if $x = 0$ then $y = \infty$ which is not a definite value for $y$. So for that function.
