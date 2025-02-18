@@ -1,4 +1,4 @@
-# Definition
+# Limit
 
 **Limit** is the process of **approximating** or **finding** the value, a functions output approaches for a given set of inputs. For a given function $y = f(x)$ , if $x$ approaches a certain value $a$ , then limit is the process through which we attempt to find the value which $y$ approaches.
 
@@ -62,6 +62,7 @@ instead of directly trying to find the limit at that point / the value the funct
 $$
 \text{(i) Limit when approaching from the left ( notice the '-' sign above } \frac{\pi}{2}\text{ )}
 $$
+
 $$
 \begin{array}{l}\lim\limits_{x \to \frac{\pi}{2}^-} g(x) = l\_lim\end{array}
 $$
@@ -69,6 +70,7 @@ $$
 $$
 \text{(i) Limit when approaching from the right ( notice the '+' sign above } \frac{\pi}{2}\text{ )}
 $$
+
 $$
 \begin{array}{l}\lim\limits_{x \to \frac{\pi}{2}^+} g(x) = r\_lim\end{array}
 $$

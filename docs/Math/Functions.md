@@ -1,4 +1,4 @@
-# Definition
+# Function
 
 Function is a relation between two Set A and B such that for every element in Set A there is an image in Set B.
 Such relationship is denoted as follows  $f: A \rightarrow B$.
