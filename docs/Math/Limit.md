@@ -11,8 +11,7 @@ $$
 \begin{array}{l}\lim\limits_{x \to 2} f(x) = 4\end{array}
 $$
 
-So essentially limit is just another way of finding the output of a function. But where it really stands apart from just normally figuring out the output (like, $f(2)$ directly which also gives you the value of y) is limit also operates on **discontinuous** functions. Read about [Continuous & Discontinuous function here.][Functions#Types of functions#Continuous & Discontinuous function]
-
+So essentially limit is just another way of finding the output of a function. But where it really stands apart from just normally figuring out the output (like, $f(2)$ directly which also gives you the value of y) is limit also operates on **discontinuous** functions. Read about [[Functions#Types of functions#Continuous & Discontinuous function]]
 
 ## Understanding Intuitively
 
