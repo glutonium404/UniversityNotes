@@ -180,7 +180,15 @@ The area covered by "shadow-x" is the domain and the area covered by "shadow-y" 
 When denoting domain and range we simply follow 2 rules.
 
 1.  It must be in an ascending order (smallest to largest).   ✅ $(4, 5)$    ❌ $(5, 4)$
-2.  We must use parentheses / () for $\infty$ and square bracket / [] otherwise.   ✅ $[5, \infty)$    ❌ $(4, \infty)$
+
+2.  For $\infty$, we must use parentheses / ().   ✅ $[5, \infty)$    ❌ $[4, \infty]$
+
+3.  For finite number we can use both parentheses / () or square brackets / []. **Where**,
+	-   Parentheses / () means exclusive
+		For example, $(1, 9)$ means numbers between 1 and 9. 1 and 9 themselves are not included. In other words $(1, 9) = [2, 8]$.
+
+	-   Square bracket / [] means inclusive
+		For example, $[1, 9]$ means starting from 1 and up to 9. So 1 and 9 are included.
 
 
 ### Problem
