@@ -80,3 +80,92 @@ $$
 $$
 
 But in this case if we do try to calculate the $l\_lim$  and $r\_lim$  for $g(x)$ we would see that both are different and so that means $g(x) = tan(x)$ doesn't have a limit.
+
+
+# Formulas
+
+
+## Limit of Trigonometry Functions
+
+$$
+\begin{equation*}
+\begin{aligned}
+& \lim_{x\rightarrow 0} \sin x &&= 0 \\[10pt]
+& \lim_{x\rightarrow 0} \cos x &&= 1 \\[10pt]
+& \lim_{x\rightarrow 0} \frac{\sin x}{x} &&= 1 \\[10pt]
+& \lim_{x\rightarrow 0} \frac{\tan x}{x} &&= 1 \\[10pt]
+& \lim_{x\rightarrow 0} \frac{1 - \cos x}{x} &&= 0 \\[10pt]
+& \lim_{x\rightarrow 0} \frac{\sin^{-1} x}{x} &&= 1 \\[10pt]
+& \lim_{x\rightarrow 0} \frac{\tan^{-1} x}{x} &&= 1
+\end{aligned}
+\end{equation*}
+$$
+
+
+## Limit of Log and Exponential Functions
+
+$$
+\begin{equation*}
+\begin{aligned}
+& \lim_{x\rightarrow 0} e^x &&= 1 \\[10pt]
+& \lim_{x\rightarrow 0} \frac{e^x - 1}{x} &&= 1 \\[10pt]
+& \lim_{x\rightarrow 0} \frac{a^x - 1}{x} &&= \log_e a \\[10pt]
+& \lim_{x\rightarrow 0} \frac{\log(1+x)}{x} &&= 1 \\[10pt]
+& \lim_{x\rightarrow \infty} \left(1 + \frac{1}{x}\right)^x &&= e \\[10pt]
+& \lim_{x\rightarrow 0} (1+x)^{\frac{1}{x}} &&= e \\[10pt]
+& \lim_{x\rightarrow \infty} \left(1 + \frac{a}{x}\right)^x &&= e^a
+\end{aligned}
+\end{equation*}
+$$
+
+
+## Limits of the form $1^\infty$ and $x^n$ formula
+
+$$
+\begin{equation*}
+\begin{aligned}
+& \lim_{x\rightarrow 0} (1+x)^{\frac{1}{x}} &&= e \\[10pt]
+& \lim_{x\rightarrow \infty} \left(1 + \frac{1}{x}\right)^x &&= e \\[10pt]
+& \lim_{x\rightarrow \infty} \left(1 + \frac{a}{x}\right)^x &&= e^a \\[10pt]
+& \lim_{x\rightarrow a} \frac{x^n - a^n}{x-a} &&= n(a)^{n-1}
+\end{aligned}
+\end{equation*}
+$$
+
+
+## Checking if Limit Exists
+
+$$
+\begin{equation*}
+\begin{aligned}
+& \text{To check if limit exists for f(x) at x = a} \\[10pt]
+& \text{We check if} \\[10pt]
+& \text{Left Hand Limit = Right Hand Limit = f(a)} \\[10pt]
+& \text{i.e. } \lim_{x\rightarrow a^-} f(x) = \lim_{x\rightarrow a^+} f(x) = f(a)
+\end{aligned}
+\end{equation*}
+$$
+
+
+## L'hospital's rule
+
+$$
+\begin{equation*}
+\begin{aligned}
+& \textbf{If } \lim_{x\rightarrow a}\frac{f(x)}{g(x)} \textbf{ gives } \frac{0}{0} \textbf{ form} \\[30pt]
+& \textbf{where} \\[10pt]
+& f(a)=0 \\[10pt]
+& g(a)=0 \\[30pt]
+& \textbf{Then,} \\[10pt]
+& \lim_{x\rightarrow a}\frac{f(x)}{g(x)}=\frac{f^{\prime}(a)}{g^{\prime}(a)} \\[30pt]
+& \textbf{For example} \\[10pt]
+& \lim_{x\rightarrow a}\frac{x^{n}-a^{n}}{x-a} \\[10pt]
+& \lim_{x\rightarrow a}x^{n}-a^{n}=0 \\[10pt]
+& \lim_{x\rightarrow a}(x-a)=0 \\[30pt]
+& \textbf{Hence it is } \frac{0}{0} \textbf{ form} \\[10pt]
+& \lim_{x\rightarrow a}\frac{(x^{n}-a^{n})}{(x-a)}=\frac{(x^{n}-a^{n})^{\prime}}{(x-a)^{\prime}} \\[10pt]
+& = \lim_{x\rightarrow a}\frac{nx^{n-1}}{1} \\[10pt]
+& = na^{n-1}
+\end{aligned}
+\end{equation*}
+$$
