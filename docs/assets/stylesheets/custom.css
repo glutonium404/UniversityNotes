@@ -26,5 +26,5 @@ a:has(img) {
 }
 
 .md-header__source .md-source__facts li {
-	color: #fff;
+	color: #000;
 }
