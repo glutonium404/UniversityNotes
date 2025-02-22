@@ -8,11 +8,28 @@ h5,
 h6 {
 	color: var(--page-colors-headings) !important;
 	font-weight: var(--page-styles-headings) !important;
+	font-family: Soren;
+}
+
+h2 {
+	/*font-size: 2.5em !important;*/
+}
+
+h2:not(:first-of-type) {
+	margin-top: 6rem !important;
+}
+
+h3 {
+	/*font-size: 2em !important;*/
+}
+
+h3:not(h2+h3) {
+	margin-top: 3rem !important;
 }
 
 p,
 li {
-	color: var(--page-colors-text);
+	/*color: var(--page-colors-text);*/
 }
 
 iframe {

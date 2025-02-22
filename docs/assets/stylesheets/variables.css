@@ -21,4 +21,6 @@
 	--code-blocks-colors-function: #f7768e;
 	--code-blocks-colors-operator: #89ddff;
 	/*code blocks styles*/
+
+	--md-default-bg-color: hsl(211 3% 12% / 1);
 }
