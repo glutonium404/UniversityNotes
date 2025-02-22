@@ -214,18 +214,21 @@ $$
 
 **Solution**
 
+
 $$
 \begin{align*}
 y &= x^2 + 10x + 30 \\[10pt]
-  \Rightarrow y &= x^2 + 2\cdot x \cdot 5 + 5^2 + 5 \\[10pt]
-  \Rightarrow y &= (x + 5)^2 + 5 
-  \quad\text{(Equation i)} \\[15pt]
+\Rightarrow y &= x^2 + 2\cdot x \cdot 5 + 5^2 + 5 \\[10pt]
+\Rightarrow y &= (x + 5)^2 + 5 
+\quad\text{(Equation i)} \\[15pt]
 \end{align*}
 $$
+
 
 $\text{Now, suppose } f(x) = x^2.$
 
 $\text{Substitute into (i):}$
+
 
 $$
 \begin{align*}
@@ -236,11 +239,6 @@ $$
 
 
 
-
-$$
-\begin{align*}
-\end{align*}
-$$
 $\text{Original graph:}$
 
 ![[Pasted image 20250216224305.png]]
