@@ -4,7 +4,7 @@ Finding a **Limit** is the process of **approximating** or **finding** the value
 
 ![[Pasted image 20250218165430.png]]
 
-In the sketch above, for the function $y = f(x)$ , while the value of $x$ approaches 2 (either from left or right shown by the arrows) the value of $y$ approaches 4. 
+In the sketch above, for the function $y = f(x)$ , while the value of $x$ approaches 2 (either from left or right shown by the arrows) the value of $y$ approaches $4$. 
 
 So in this case we would say,
 $$
@@ -19,11 +19,11 @@ $$
 y = f(x) = \dfrac{sin(x)}{x}
 $$
 
-Looking at it, you can realize that $f(x)$ is a discontinuous function cause when $x = 0$ , $y = undefined$. So the function breaks when $x$ becomes 0 and we are unable to find a definite value of $y$ here. But let's just look at the graph of the function for a moment,
+Looking at it, you can realize that $f(x)$ is a discontinuous function cause when $x = 0$ , $y = undefined$. So the function breaks when $x$ becomes $0$ and we are unable to find a definite value of $y$ here. But let's just look at the graph of the function for a moment,
 
 ![[Pasted image 20250218174604.png]]
 
-looking at the graph we can clearly see that when $x$ gets closer and closer to 0, $y$ gets closer and closer  to (or approaches) 1. But we can only tell that cause we are looking at the graph. For a more complex function, and when we don't have a graph, there is no way for us to tell what $y$ approaches. This is where limit comes in.
+looking at the graph we can clearly see that when $x$ gets closer and closer to $0$, $y$ gets closer and closer  to (or approaches) $1$. But we can only tell that cause we are looking at the graph. For a more complex function, and when we don't have a graph, there is no way for us to tell what $y$ approaches. This is where limit comes in.
 
 Imagine this, someone come's up to you and asks, "hey, do you know where "Ahmad" lives?". Now you know the village/area where "Ahmad" lives but you don't know the exact address to his house. But one thing you do know is the address of "Abdullah"s house and that "Ahmad" lives somewhere near "Abdullah". So obviously since you can not pin point where exactly "Ahmad" lives, you CAN give an approximation to it by telling the person that "Ahmad"s house is near where "Abdullah" lives.
 
@@ -34,7 +34,7 @@ For a continuous function on the other hand, there isn't much to it. Finding a l
 
 ### Functions with non-existing limit
 
-Functions like $f(x) = \dfrac{sin(x)}{x}$ we have seen that they have a limit. When $x$ was approaching 0 $y$ was also approaching 1 hence the limit for that function is 1. Take a look at the corresponding graph for $f(x)$.
+Functions like $f(x) = \dfrac{sin(x)}{x}$ we have seen that they have a limit. When $x$ was approaching $0$,  $y$ was also approaching $1$. Hence the limit for that function is $1$. Take a look at the corresponding graph for $f(x)$.
 
 ![[Pasted image 20250218174604.png]]
 
@@ -57,20 +57,14 @@ $$
 
 instead of directly trying to find the limit at that point / the value the function approaches at that point, we first need to find the limit / the point the function approaches while approaching from both direction , left and right.
 
+- Limit when approaching from the left ( notice the **'-'** sign above $\dfrac{\pi}{2}$ )
 $$
-\text{(i) Limit when approaching from the left ( notice the '-' sign above } \frac{\pi}{2}\text{ )}
-$$
-
-$$
-\begin{array}{l}\lim\limits_{x \to \frac{\pi}{2}^-} g(x) = l\_lim\end{array}
+\lim\limits_{x \to \frac{\pi}{2}^-} g(x) = l\_lim
 $$
 
+-  Limit when approaching from the right ( notice the **'+'** sign above $\dfrac{\pi}{2}$ )
 $$
-\text{(i) Limit when approaching from the right ( notice the '+' sign above } \frac{\pi}{2}\text{ )}
-$$
-
-$$
-\begin{array}{l}\lim\limits_{x \to \frac{\pi}{2}^+} g(x) = r\_lim\end{array}
+\lim\limits_{x \to \frac{\pi}{2}^+} g(x) = r\_lim
 $$
 
 If,  $l\_lim = r\_lim$  then we know the function approaches the same point from both direction hence the limit for that function exists and so,
