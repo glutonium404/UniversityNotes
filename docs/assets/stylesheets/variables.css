@@ -23,4 +23,8 @@
 	/*code blocks styles*/
 
 	--md-default-bg-color: hsl(211 3% 12% / 1);
+
+	>* {
+		--md-primary-fg-color: hsl(224 15% 50% / 1);
+	}
 }

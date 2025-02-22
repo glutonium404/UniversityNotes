@@ -238,7 +238,6 @@ y &= (x + 5)^2 + 5 \\[8pt]
 $$
 
 
-
 $\text{Original graph:}$
 
 ![[Pasted image 20250216224305.png]]

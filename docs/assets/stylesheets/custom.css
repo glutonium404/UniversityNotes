@@ -42,10 +42,14 @@ a:has(img) {
 	place-content: center;
 }
 
-.md-header__source .md-source__facts li {
-	color: #000;
+header.md-header.md-header--shadow>* {
+	color: white;
+	fill: white;
 }
 
+.md-header__source .md-source__facts li {
+	/*color: #000;*/
+}
 
 .md-content p {
 	color: hsl(0 0% 76.86%);
