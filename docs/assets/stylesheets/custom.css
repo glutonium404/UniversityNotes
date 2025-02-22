@@ -45,3 +45,21 @@ a:has(img) {
 .md-header__source .md-source__facts li {
 	color: #000;
 }
+
+
+.md-content p {
+	color: hsl(0 0% 76.86%);
+	font-size: 1.1em;
+	letter-spacing: 0.3px;
+	word-spacing: 1px;
+}
+
+.md-content {
+
+	strong,
+	.arithmatex,
+	.MathJax.CtxtMenu_Attached_0 {
+		color: white !important;
+		font-weight: bold !important;
+	}
+}
