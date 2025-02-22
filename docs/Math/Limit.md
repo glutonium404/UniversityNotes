@@ -88,12 +88,13 @@ But in this case if we do try to calculate the $l\_lim$  and $r\_lim$  for $g(x)
 
 The **sandwich theorem** otherwise also known as the **squeeze theorem** states that,
 for given functions, $f(x)$,  $g(x)$ and $h(x)$ where,
+
 $$
 \begin{equation*}
 \begin{aligned}
-& \textbf{If,\quad\quad\quad}
-\lim_{x \to a} f(x) = \lim_{x \to a} h(x) = l \\ \\
-& \textbf{Then,\quad}
+& \textbf{If,} &&
+\lim_{x \to a} f(x) = \lim_{x \to a} h(x) = l \\[10pt]
+& \textbf{Then,} &&
 \lim_{x \to a} g(x) = l
 \end{aligned}
 \end{equation*}
