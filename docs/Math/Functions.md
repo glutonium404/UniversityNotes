@@ -166,6 +166,7 @@ Df = [4, +\infty)
 $$
 
 Now if we want to find all possible values of $y$, we need to refactor the equation a bit.
+
 $$
 \begin{align*}
 & y &&= \sqrt{x - 4} \\[8pt]
@@ -215,19 +216,23 @@ $$
 
 $$
 \begin{align*}
-& y = x^2 + 10x + 30 \\[8pt]
-\Rightarrow \quad & y = x^2 + 2 \times x \times 5 + 5^2 + 5 \\[8pt]
-\Rightarrow \quad & y = (x + 5)^2 + 5 \quad \text{----- (i)}
+y &= x^2 + 10x + 30 \\[10pt]
+  \Rightarrow y &= x^2 + 2\cdot x \cdot 5 + 5^2 + 5 \\[10pt]
+  \Rightarrow y &= (x + 5)^2 + 5 
+  \quad\text{(Equation i)} \\[15pt]
+
+\text{Now, suppose } f(x) &= x^2. \\[8pt]
+\text{Substitute into (i):} & \\[8pt]
+y &= (x + 5)^2 + 5 \\[8pt]
+\Rightarrow y &= f(x + 5) + 5.
 \end{align*}
 $$
 
-$\text{Suppose}, f(x) = x^2$
 
-$\therefore \text{ Equation (i) becomes}$
+
+
 $$
 \begin{align*}
-& y = (x + 5)^2 + 5 \\[8pt]
-\Rightarrow \quad & y = f(x + 5)^2 + 5
 \end{align*}
 $$
 $\text{Original graph:}$
