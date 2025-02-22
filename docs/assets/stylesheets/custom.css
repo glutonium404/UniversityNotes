@@ -24,3 +24,7 @@ a:has(img) {
 	display: grid;
 	place-content: center;
 }
+
+.md-header__source .md-source__facts li {
+	color: #fff;
+}
