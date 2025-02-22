@@ -81,6 +81,47 @@ $$
 
 But in this case if we do try to calculate the $l\_lim$  and $r\_lim$  for $g(x)$ we would see that both are different and so that means $g(x) = tan(x)$ doesn't have a limit.
 
+
+## Sandwich / Squeeze Theorem
+
+### Definition
+
+The **sandwich theorem** otherwise also known as the **squeeze theorem** states that,
+for given functions, $f(x)$,  $g(x)$ and $h(x)$ where,
+$$
+f(x) \leq g(x) \leq h(x)
+$$
+if,
+$$
+\lim_{x \to a} f(x) = \lim_{x \to a} h(x) = l
+$$
+then,
+$$
+\lim_{x \to a} g(x) = l
+$$
+
+In other words, for the same input, if the output of $g(x)$ is always in-between or equal to the outputs of $f(x)$ and $h(x)$ , and if at a given point $a$ the limit of both $f(x)$ and $h(x)$ are the same then at that same given point $a$ the limit of $g(x)$ must be the same as well.
+
+In graph below, you can see $g(x)$ is always in-between $f(x)$ and $h(x)$ and so at the give point $0$ ,
+
+$$
+\begin{equation*}
+\begin{aligned}
+& \lim_{x\to0}{f(x)} = lim_f = 1 \\ \\
+& \lim_{x\to0}{h(x)} = lim_h = 1
+\end{aligned}
+\end{equation*}
+$$
+
+Since, $lim_f = lim_h = 1$  , at the same given point $0$,
+
+$$
+\lim_{x\to0}{g(x)} = 1
+$$
+
+
+![[Pasted image 20250222163300.png]]
+
 ## Formulas
 
 
