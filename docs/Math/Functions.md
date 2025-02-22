@@ -220,9 +220,15 @@ y &= x^2 + 10x + 30 \\[10pt]
   \Rightarrow y &= x^2 + 2\cdot x \cdot 5 + 5^2 + 5 \\[10pt]
   \Rightarrow y &= (x + 5)^2 + 5 
   \quad\text{(Equation i)} \\[15pt]
+\end{align*}
+$$
 
-\text{Now, suppose } f(x) &= x^2. \\[8pt]
-\text{Substitute into (i):} & \\[8pt]
+$\text{Now, suppose } f(x) = x^2.$
+
+$\text{Substitute into (i):}$
+
+$$
+\begin{align*}
 y &= (x + 5)^2 + 5 \\[8pt]
 \Rightarrow y &= f(x + 5) + 5.
 \end{align*}
