@@ -130,7 +130,7 @@ There are 4 rules when it comes to shifting (cause for both horizontal and verti
 
 
 ## Domain Range
-### Domain and Range
+### Definitions
 
 **Domain:** All possible $x$ values of a particular function.
 
@@ -140,17 +140,20 @@ For example, let's look at the following function
 $$
 y = f(x) = \sqrt{x-4}
 $$
+
 For the above function what are the possible values for $x$ ?
 If we think about it, we can realize if $x < 4$ then $y$ becomes complex number.
 $$
 y = f(3) = \sqrt{3 - 4} = \sqrt{-1} = i
 $$
+
 Which means the value of $x$ can not go below 4. But it doesn't matter how large the value of $x$ gets we will always get a real number as an output.
-So we can tell from there, that $x$  can have any value staring from $4$ upto $+\infty$.
+So we can tell from there, that $x$  can have any value staring from $4$ up to $+\infty$.
 So the domain of the above function $f(x)$ the domain is,
 $$
 Df = [4, +\infty)
 $$
+
 Now if we want to find all possible values of $y$, we need to refactor the equation a bit.
 $$
 y = \sqrt{x - 4}
@@ -161,6 +164,7 @@ $$
 $$
 x = f(y) = y^2 + 4
 $$
+
 In this case we can see, $y$ can have all possible real number ( $\mathbb{R}$ ) as its value.
 So the rage for the original function $f(x)$ is,
 $$

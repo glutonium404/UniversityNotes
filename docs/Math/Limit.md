@@ -1,4 +1,4 @@
-# Limit
+## Limit
 
 Finding a **Limit** is the process of **approximating** or **finding** the value, a functions output approaches for a given set of inputs. For a given function $y = f(x)$ , if $x$ approaches a certain value $a$ , then limit is the process through which we attempt to find the value which $y$ approaches.
 
@@ -12,7 +12,7 @@ $$
 $$
 
 
-## Understanding Intuitively
+### Understanding Intuitively
 
 Let's consider the following discontinuous function,
 $$
@@ -32,7 +32,7 @@ Similarly, for limit, even though it can not give us a definite output of a disc
 For a continuous function on the other hand, there isn't much to it. Finding a limit of a continuous function is similar to getting the output of the function from directly plotting the input into the function.
 
 
-## Functions with non-existing limit
+### Functions with non-existing limit
 
 Functions like $f(x) = \dfrac{sin(x)}{x}$ we have seen that they have a limit. When $x$ was approaching 0 $y$ was also approaching 1 hence the limit for that function is 1. Take a look at the corresponding graph for $f(x)$.
 
@@ -81,11 +81,10 @@ $$
 
 But in this case if we do try to calculate the $l\_lim$  and $r\_lim$  for $g(x)$ we would see that both are different and so that means $g(x) = tan(x)$ doesn't have a limit.
 
+## Formulas
 
-# Formulas
 
-
-## Limit of Trigonometry Functions
+### Limit of Trigonometry Functions
 
 $$
 \begin{equation*}
@@ -102,7 +101,7 @@ $$
 $$
 
 
-## Limit of Log and Exponential Functions
+### Limit of Log and Exponential Functions
 
 $$
 \begin{equation*}
@@ -119,7 +118,7 @@ $$
 $$
 
 
-## Limits of the form $1^\infty$ and $x^n$ formula
+### Limits of the form $1^\infty$ and $x^n$ formula
 
 $$
 \begin{equation*}
@@ -133,7 +132,7 @@ $$
 $$
 
 
-## Checking if Limit Exists
+### Checking if Limit Exists
 
 $$
 \begin{equation*}
@@ -147,7 +146,7 @@ $$
 $$
 
 
-## L'hospital's rule
+### L'hospital's rule
 
 $$
 \begin{equation*}
