@@ -1,0 +1,59 @@
+## Definition
+
+A **function** is a **relationship** between two **Sets A** and **B** ; where every element of **Set A**  must have their image on **B**. A **function** from a **Set** **A** to **B** is is denoted by $f:A \to B$ . 
+
+For example,
+
+TODO: add image
+
+## Types of Functions
+
+### Injective Funciton
+
+TODO: add image
+
+**Injective** or **one-one** function is when every elements of the **first** **Set** has a **unique** image on **second** **Set**. 
+In the example above, $f: A\to B$ is an **Injective** function, but $f: P \to Q$ is not because $Img(b) = Img(c)$. 
+Suppose, $f: A \to B$  is a function from **Set** **A** to **Set** **B**. This function is called **one-one** / **injective** function if for every $x \in A$ , there is a unique image $y \in B$.
+
+### Surjective Function / Onto Function
+
+TODO: add image
+
+Suppose, $f: A \to B$ is a function from **A** to **B**. this function is called a **surjective** function if for every $y \in B$ there exists an element $x \in A$.
+
+### Bijective Function
+
+Suppose $f: A \to B$ is a function from **A** to **B**. This function is called **Bijective** function if it is both **Injective** and **Surjective** function.
+
+### Even Function and Odd Function
+
+A function $f(x)$ is called and **even** **function** if $f(-x) = f(x)$.
+A function $f(x)$ is called and **odd** **function** if $f(-x) = -f(x)$.
+
+For example:
+-  **Even function:** $f(x) = x^2$ or $f(x) = x^{2n} ; n \in \mathbb{N}$
+-  **Odd function:** $f(x) = 2x$
+
+### Example functions
+
+TODO: add image
+
+## Domain and Range Using Graph Shifting
+
+**Vertical shifting:** When a graph is shifted along the **y** axis.
+**Horizontal shifting:** When a graph is shifted along the **x** axis.
+
+**Rules:**
+-  $y = f(x - a)$ shifts the graph to the **right**, **"a"** units from the graph $y = f(x)$.
+-  $y = f(x + a)$ shifts the graph to the **left**, **"a"** units from the graph $y = f(x)$.
+-  $y = f(x)- a$ shifts the graph **downwards**, **"a"** units from the graph $y = f(x)$.
+-  $y = f(x)+ a$ shifts the graph **upwards**, **"a"** units from the graph $y = f(x)$.
+
+**Domain:** All possible **x** values of a function.
+**Range:** All possible **y** values of a function.
+
+For example, for the function $y = f(x) = \sqrt{x - 4}$,
+Domain, $D_f = [4, \infty) , \quad \{{x | x \ge 4}\}$
+Range, $R_f = [0, \infty) , \quad \{{y | y \ge 0}\}$
+

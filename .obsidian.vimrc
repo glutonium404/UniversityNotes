@@ -16,3 +16,5 @@ nmap <C-o> :back<CR>
 
 exmap forward obcommand app:go-forward
 nmap <C-i> :forward<CR>
+
+nmap Y y$

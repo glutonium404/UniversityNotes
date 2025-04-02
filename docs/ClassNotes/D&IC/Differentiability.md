@@ -1,0 +1,47 @@
+## Definition
+
+Suppose, $y = f(x)$ be any function of $x$ then this function is **differentiable** at $x = a$ if is satisfies the following conditions,
+
+1. function $f(x)$ is [[Continuity|continuous]] at $x = a$
+2. $L_f\prime (a) = R_f\prime (a)$  or $L.H.D = R.H.D$
+
+## Left Hand Derivative / L.H.D
+
+$$
+L.H.D = f\prime(a^-) = \lim_{h \to 0} \frac{f(a - h) - f(a)}{-h}
+$$
+
+## Right Hand Derivative / R.H.D
+
+$$
+R.H.D = f\prime(a^+) = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h}
+$$
+
+
+## Example
+
+Let's try to see if the following function is differentiable or not where $x = 2$
+
+$$
+f(x) = 
+\begin{cases}
+  1 + x &; x < 2 \\
+  5 - x &; x \ge 2
+\end{cases}
+$$
+
+**Continuity check:**
+
+$R.H.L = \lim_{x \to 2^+} f(2 + h) = 3$ 
+$L.H.L = \lim_{x \to 2^-} f(2 - h) = 3$ 
+$f(2) = 3$
+
+Since $L.H.L = R.H.L = f(2)$ , hence the function $f(x)$ is continuous at $x = 2$.
+
+**Differentiability check:**
+
+$L.H.D = \lim_{h \to 0} \dfrac{f(2 - h) - f(2)}{-h} = 1$
+
+$R.H.D = \lim_{h \to 0} \dfrac{f(2 + h) - f(2)}{h} = -1$
+
+Since, $L.H.D \ne R.H.D$ hence **not** **differentiable**.
