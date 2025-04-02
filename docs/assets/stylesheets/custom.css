@@ -6,21 +6,12 @@ h3,
 h4,
 h5,
 h6 {
-	color: var(--page-colors-headings) !important;
 	font-weight: var(--page-styles-headings) !important;
 	font-family: Soren;
 }
 
-h2 {
-	/*font-size: 2.5em !important;*/
-}
-
 h2:not(:first-of-type) {
 	margin-top: 6rem !important;
-}
-
-h3 {
-	/*font-size: 2em !important;*/
 }
 
 h3:not(h2+h3) {
@@ -63,29 +54,18 @@ h1 {
 	color: hsl(0, 67%, 61%) !important;
 }
 
-/* Red */
 h2 {
-	color: hsl(60, 67%, 61%) !important;
+	color: #FFCDB2 !important;
 }
 
-/* Yellow */
 h3 {
-	color: hsl(120, 67%, 61%) !important;
+	color: #FFB4A2 !important;
 }
 
-/* Green */
 h4 {
-	color: hsl(180, 67%, 61%) !important;
+	color: #E5989B !important;
 }
 
-/* Cyan */
 h5 {
-	color: hsl(240, 67%, 61%) !important;
+	color: #B5828C !important;
 }
-
-/* Blue */
-h6 {
-	color: hsl(300, 67%, 61%) !important;
-}
-
-/* Magenta */
