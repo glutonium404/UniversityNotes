@@ -58,3 +58,34 @@ header.md-header.md-header--shadow>* {
 		font-weight: bold !important;
 	}
 }
+
+h1 {
+	color: hsl(0, 67%, 61%) !important;
+}
+
+/* Red */
+h2 {
+	color: hsl(60, 67%, 61%) !important;
+}
+
+/* Yellow */
+h3 {
+	color: hsl(120, 67%, 61%) !important;
+}
+
+/* Green */
+h4 {
+	color: hsl(180, 67%, 61%) !important;
+}
+
+/* Cyan */
+h5 {
+	color: hsl(240, 67%, 61%) !important;
+}
+
+/* Blue */
+h6 {
+	color: hsl(300, 67%, 61%) !important;
+}
+
+/* Magenta */
