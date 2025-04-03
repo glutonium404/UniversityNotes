@@ -1,5 +1,0 @@
-./  
-├── [[Differentiation]]  
-├── [[Functions]]  
-├── [[Limit]]  
-
