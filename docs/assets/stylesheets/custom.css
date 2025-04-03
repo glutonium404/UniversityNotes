@@ -1,4 +1,5 @@
 @import "variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Ubuntu:wght@700&display=swap');
 
 h1,
 h2,
@@ -6,8 +7,9 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: var(--page-styles-headings) !important;
-	font-family: Soren;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 h2:not(:first-of-type) {
@@ -68,4 +70,8 @@ h4 {
 
 h5 {
 	color: #B5828C !important;
+}
+
+.md-nav__link--active {
+	color: hsl(0, 67%, 61%) !important;
 }
