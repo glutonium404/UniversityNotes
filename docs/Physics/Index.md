@@ -1,2 +1,3 @@
-./
-└── [[Simple Harmonic Motion or Oscillation]]
+./  
+└── [[Simple Harmonic Motion or Oscillation]]  
+
